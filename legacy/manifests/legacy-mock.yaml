@@ -15,7 +15,7 @@ spec:
     metadata:
       labels:
         app: legacy-mock
-        # secret-handshake: "true"
+        secret-handshake: "true"
     spec:
       containers:
       - image: lets-talk-about-operators/mock-app:0.1.0
